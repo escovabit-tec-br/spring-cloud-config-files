@@ -1,7 +1,6 @@
 app:
   custom:
     value: global
-
 ---
 spring:
   profiles:
