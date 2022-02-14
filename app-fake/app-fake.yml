@@ -1,3 +1,5 @@
 app:
   fake:
     global: true
+  custom:
+    value: global
