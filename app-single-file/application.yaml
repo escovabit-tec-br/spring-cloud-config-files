@@ -3,8 +3,6 @@ app:
     value: global
 ---
 spring:
-  profiles:
-    - dev
   config:
     activate:
       on-profile: dev
