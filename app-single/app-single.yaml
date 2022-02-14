@@ -1,0 +1,19 @@
+app:
+  custom:
+    value: global
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+app:
+  custom:
+    value: dev
+---
+spring:
+  config:
+    activate:
+      on-profile: hml
+app:
+  custom:
+    value: hml
