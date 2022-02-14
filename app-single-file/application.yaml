@@ -9,3 +9,11 @@ spring:
 app:
   custom:
     value: dev
+---
+spring:
+  config:
+    activate:
+      on-profile: hml
+app:
+  custom:
+    value: hml
